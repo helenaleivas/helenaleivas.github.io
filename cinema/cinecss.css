@@ -1,0 +1,71 @@
+td.assento{
+  padding: 10px;
+  border-style: double;
+  border-width: 5px;
+  border-color: #4f94cd;
+  background-color:rgb(134, 161, 173);
+  font-size: 20px;
+}
+td.corredor{
+  border-style: hidden;
+  font-size: 20px;
+}
+caption{
+  font-weight: normal;
+  text-align: center;
+  font-family: "arial", "verdana", "open sans", sans-serif;
+  border-style:double;
+  border-color: #4f94cd;
+  font-size: 20px;
+}
+.inteira{
+  padding: 10px;
+  border-style: double;
+  border-width: 3px;
+  border-color: #4f94cd;
+  background-color:rgb(255, 4, 4);
+  font-size: 20px;
+}
+.meia{
+  padding: 10px;
+  border-style: double;
+  border-width: 3px;
+  border-color: #4f94cd;
+  background-color:rgb(152, 61, 255);
+  font-size: 20px;
+}
+.Int{
+  padding: 6px;
+  border-style: double;
+  border-width: 3px;
+  border-color: #4f94cd;
+  background-color:rgb(255, 4, 4);
+  font-size: 20px;
+}
+.MInt{
+  padding: 6px;
+  border-style: double;
+  border-width: 3px;
+  border-color: #4f94cd;
+  background-color:rgb(152, 61, 255);
+  font-size: 20px;
+}
+.espaço{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+div#entrada{
+  font-size: 20px;
+}
+div#meiaentrada{
+  font-size: 20px;
+}
+div#contatotal{
+  font-size: 20px;
+}
+td#text{
+  font-size: 20px;
+}
+output{
+  font-size: 20px;
+}
