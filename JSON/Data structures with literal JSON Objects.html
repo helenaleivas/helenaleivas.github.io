@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JSON</title>
+  </head>
+  <body>
+    <script>
+
+       var banda = {
+          nome: 'Maroon 5',
+          integrantes: [
+            {
+              nome:'Adam Noah Levine',
+              idade: 38,
+              funcao:'guitarrista e vocalista'
+            },
+            {
+              nome:'James Burgon Valentine',
+              idade: 38,
+              funcao:'guitarrista'
+            },
+            {
+              nome:'Jesse Carmichael',
+              idade: 38,
+              funcao:'tecladista'
+            },
+            {
+              nome:'Michael Allen Madden',
+              idade: 37,
+              funcao:'baixista'
+            },
+            {
+              nome:'Matthew Flynn',
+              idade: 47,
+              funcao:'baterista'
+            },
+            {
+              nome:'Paul Morton Jr.',
+              idade: 36,
+              funcao:'stand-in e tecladista'
+            },
+            {
+              nome:'Paul Morton Jr.',
+              idade: 36,
+              funcao:'stand-in e tecladista'
+            }
+          ],
+          exintegrante:{
+            nome:'Ryan Michael Dusick',
+            idade: 39,
+            funcao:'ex-baterista'
+          },
+          albuns: [
+              {
+                nome: 'Songs About Jane',
+                lancamento:'25/06/2002',
+                musicas:[
+                    {
+                      nome:'Harder to Breathe',
+                      duracao:'2:56'
+                    },
+                    {
+                      nome:'This Love',
+                      duracao:'3:27'
+                    },
+                    {
+                      nome:'Shiver',
+                      duracao:'3:01'
+                    },
+                    {
+                      nome:'She Will Be Loved',
+                      duracao:'4:18'
+                    },
+                    {
+                      nome:'Tangled',
+                      duracao:'3:19'
+                    },
+                    {
+                      nome:'The Sun',
+                      duracao:'4:10'
+                    },
+                    {
+                      nome:'Must Get Out',
+                      duracao:'3:58'
+                    },
+                    {
+                      nome:'Sundat Morning',
+                      duracao:'4:03'
+                    },
+                    {
+                      nome:'Secret',
+                      duracao:'4:57'
+                    },
+                    {
+                      nome:'Through with You',
+                      duracao:'3:03'
+                    },
+                    {
+                      nome:'Not Coming Home',
+                      duracao:'4:23'
+                    },
+                    {
+                      nome:'Sweetest Goodbye',
+                      duracao:'4:23'
+                    }
+                  ]
+              },
+              {
+                 nome:'It Wont Be Soon Before Long',
+                 lancamento: '22/05/2007',
+                 musicas:[
+                   {
+                       nome:'If I Never See Your Face Again',
+                       duracao:'3:21'
+                     },
+                   {
+                       nome:'Makes Me Wonder',
+                       duracao:'3:31'
+                     },
+                   {
+                       nome:'Little of Your Time',
+                       duracao:'2:17'
+                     },
+                   {
+                       nome:'Wake Up Call',
+                       duracao:'3:21'
+                     },
+                   {
+                       nome:'Wont Go Home Without You',
+                       duracao:'3:51'
+                     },
+                   {
+                       nome:'Nothing Lasts Forever',
+                       duracao:'3:07'
+                     },
+                   {
+                       nome:'Cant Stop',
+                       duracao:'2:32'
+                     },
+                   {
+                       nome:'Goodnight Goodnight',
+                       duracao:'4:03'
+                     },
+                   {
+                       nome:'Not Falling Apart',
+                       duracao:'4:03'
+                     },
+                   {
+                       nome:'Kiwi',
+                       duracao: '3:34'
+                     },
+                   {
+                       nome: 'Better That We Break',
+                       duracao: '3:06'
+                     },
+                   {
+                       nome:'Back at Your Door',
+                       duracao:'3:47'
+                     }
+                 ]
+              },
+              {
+                 nome:'Hands all Over',
+                 lancamento: '21/09/2010',
+                 musicas:[
+                     {
+                       nome:'Misery',
+                       duracao:'3:36'
+                     },
+                     {
+                       nome:'Give a Little More',
+                       duracao:'3:00'
+                     },
+                     {
+                       nome:'Stutter',
+                       duracao:'3:16'
+                     },
+                     {
+                       nome:'Dont Know Nothing',
+                       duracao:'3:19'
+                     },
+                     {
+                       nome:'Never Gonna Leave This Bed',
+                       duracao:'3:16'
+                     },
+                     {
+                       nome:'I Cant Lie',
+                       duracao:'3:31'
+                     },
+                     {
+                       nome:'Hand All Over',
+                       duracao:'3:12'
+                     },
+                     {
+                       nome:'How',
+                       duracao:'3:36'
+                     },
+                     {
+                       nome:'Get Back In My Life',
+                       duracao:'3:37'
+                     },
+                     {
+                       nome:'Just a Feeling',
+                       duracao: '3:46'
+                     },
+                     {
+                       nome:'Runaway',
+                       duracao:'3:01'
+                     },
+                     {
+                       nome:'Out of Goodbyes',
+                       duracao: '3:16'
+                     }
+                   ]
+               },
+              {
+                 nome:'Overexpoded',
+                 lancamento: '26/06/2012',
+                 musicas:[
+                     {
+                       nome:'One More Night',
+                       duracao:'3:39'
+                     },
+                     {
+                       nome:'Payphone',
+                       duracao:'3:51'
+                     },
+                     {
+                       nome:'Daylight',
+                       duracao:'3:45'
+                     },
+                     {
+                       nome:'Lucky Strike',
+                       duracao:'3:05'
+                     },
+                     {
+                       nome:'The Man Who Never Lied',
+                       duracao:'3:25'
+                     },
+                     {
+                       nome:'Love Somebody',
+                       duracao:'3:49'
+                     },
+                     {
+                       nome:'Lady Killer',
+                       duracao:'2:44'
+                     },
+                     {
+                       nome:'Fortune Teller',
+                       duracao:'3:23'
+                     },
+                     {
+                       nome:'Sad',
+                       duracao:'3:14'
+                     },
+                     {
+                       nome:'Tickets',
+                       duracao: '3:29'
+                     },
+                     {
+                       nome:'Doin Dirt',
+                       duracao:'3:31'
+                     },
+                     {
+                       nome:'Beautiful Goodbye',
+                       duracao: '4:15'
+                     }
+                   ]
+               },
+              {
+                 nome:'V',
+                 lancamento:'29/08/2014',
+                 musicas:[
+                     {
+                       nome:'Maps',
+                       duracao:'3:10'
+                     },
+                     {
+                       nome:'Animals',
+                       duracao:'3:51'
+                     },
+                     {
+                       nome:'It Was Always You',
+                       duracao:'4:00'
+                     },
+                     {
+                       nome:'Unkiss Me',
+                       duracao:'3:58'
+                     },
+                     {
+                       nome:'Sugar',
+                       duracao:'3:55'
+                     },
+                     {
+                       nome:'Leaving California',
+                       duracao:'3:23'
+                     },
+                     {
+                       nome:'In Your Pocket',
+                       duracao:'3:39'
+                     },
+                     {
+                       nome:'New Love',
+                       duracao:'3:16'
+                     },
+                     {
+                       nome:'Coming Back For You',
+                       duracao:'3:47'
+                     },
+                     {
+                       nome:'Feelings',
+                       duracao:'3:14'
+                     },
+                     {
+                       nome:'My Heart is Open',
+                       duracao:'3:57'
+                     }
+                   ]
+              }
+          ]
+       };
+       var cantora = {
+          nomeartistico: 'Melanie Martinez',
+          nomereal: 'Melanie Adele Martinez',
+          idade: 21,
+          nacionalidade:'americana',
+          generomusical: ['indie','Electro-pop', 'Indie pop','Darkwave', 'Rock alternativo', 'Indie rock'],
+          gravadora: 'Atlantic Records',
+          albuns: [
+            {
+              nome: 'Dollhouse EP',
+              lancamento: '19/05/2014',
+              musicas:[
+                {
+                  nome: 'Dollhouse',
+                  duracao: '4:26'
+                },
+                {
+                  nome: 'Carousel',
+                  duracao: '3:51'
+                },
+                {
+                  nome: 'Dead To Me',
+                  duracao: '3:31'
+                },
+                {
+                  nome: 'Bittersweet Tragedy',
+                  duracao: '4:48'
+                }
+              ]
+            },
+            {
+              nome:'Cry Baby',
+              lancamento: '12/08/2015',
+              musicas: [
+                {
+                  nome: 'Cry Baby',
+                  duracao: '6:07'
+                },
+                {
+                  nome: 'Dollhouse',
+                  duracao: '4:26'
+                },
+                {
+                  nome: 'Sippy cup',
+                  duracao: '3:21'
+                },
+                {
+                  nome: 'Carousel',
+                  duracao: '3:51'
+                },
+                {
+                  nome: 'Alphabet Boy',
+                  duracao: '4:21'
+                },
+                {
+                  nome: 'Soap',
+                  duracao: '4:26'
+                },
+                {
+                  nome: 'Training Wheels',
+                  duracao: '3:26'
+                },
+                {
+                  nome: 'Pity Party',
+                  duracao: '3:40'
+                },
+                {
+                  nome: 'Tag, Youre It',
+                  duracao: '3:10'
+                },
+                {
+                  nome: 'Milk and Cookies',
+                  duracao: '6:45'
+                },
+                {
+                  nome: 'Pacify Her',
+                  duracao: '3:46'
+                },
+                {
+                  nome: 'Mrs. Potato Head',
+                  duracao: '5:33'
+                },
+                {
+                  nome: 'Mad Hatter',
+                  duracao: '3:22'
+                },
+                {
+                  nome: 'Play Date',
+                  duracao: '3:00'
+                },
+                {
+                  nome: 'Teddy Bear',
+                  duracao: '4:06'
+                },
+                {
+                  nome: 'Cake',
+                  duracao: '3:20'
+                }
+              ]
+            }
+          ]
+        }
+
+
+
+    </script>
+
+
+
+  </body>
+</html>

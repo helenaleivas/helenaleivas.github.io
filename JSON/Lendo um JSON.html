@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> </title>
+
+  </head>
+  <body>
+
+    <div id = 'coordenadas'>
+    </div>  
+
+    <script>
+
+        var  coordenadas = document.getElementById('coordenadas');
+        navigator.geolocation.getCurrentPosition(geolocalizacao, error);
+        function geolocalizacao(localizacao){
+          var latitude = localizacao.coords.latitude;
+          var longitude = localizacao.coords.longitude;
+          coordenadas.innerHTML = "A latitude é de: "+latitude+ "<br/>A longitude é de: "+longitude;
+        }
+        function error(erro){
+          coordenadas.innerHTML = "Permissão negada.";
+        }
+    </script>
+  </body>
