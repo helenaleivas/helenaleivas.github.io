@@ -1,0 +1,777 @@
+
+@media screen and (min-width: 768px){
+*{
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
+body{
+  font-size: 62.5%;
+}
+#parte1{
+  background-color:#df1c1c;
+  margin: 0 auto;
+  height: 21.5em;
+  width: auto;
+  padding-top: 0 auto;
+}
+#menu1{
+  vertical-align: top;
+  display: block;
+  top: 3.5em;
+  right: -9em;
+  text-decoration: none;
+  padding-top: 9.5em;
+  margin-top: -1.5em;
+  padding-right:14em;
+  word-spacing: 0.8em;
+  position: absolute;
+  font-size: 1.45em;
+
+}
+#menu1 a{
+  font-family: 'Baloo Bhaina', cursive;
+  color: white;
+  text-decoration: none;
+}
+#parte1 h1, h2{
+  font-family: 'Baloo Bhaina', cursive;
+  font-weight:lighter;
+  color: white;
+}
+#parte1 h1{
+  font-size: 5em;
+  left: 2em;
+  top: 1.8em;
+  position: absolute;
+  letter-spacing: 0.01em;
+}
+#parte1 h2{
+  font-size: 1.9em;
+  left: 8.8em;
+  top: 7.8em;
+  letter-spacing: 0.3em;
+  position: absolute;
+}
+.pesquisar{
+  padding-left: 45em;
+  top:8.5em;
+  padding-top: 3em;
+  position: absolute;
+}
+.img{
+  max-width: 100%;
+  height: 2.4em;
+  width: 2.4em;
+  top:2.27em;
+  padding-left: 31.5em;
+  position: absolute;
+}
+.text{
+  height: 2.4em;
+  width: 30em;
+  padding-left: 1.5em;
+}
+::placeholder{
+  font-style: italic;
+  color: #171717;
+}
+.FAQ{
+  background-color: #edad17;
+  color: white;
+  width: 13em;
+  height: 3.5em;
+  font-size: 1.1em;
+  left:85em;
+  top: 10.5em;
+  white-space: 0.2em;
+  position: absolute;
+}
+.tablet{
+  background-color: #edad17;
+  left:81.5em;
+  top: 8.6em;
+  height: 3em;
+  width: 3em;
+  max-width: 100%;
+  position: absolute;
+}
+.tablet img{
+  width: 3em;
+  height: 3em;
+}
+.propaganda{
+  padding-left: 23em;
+  top: 0.1em;
+  position: absolute;
+  max-width: 100%;
+}
+#propg{
+  height: 3em;
+}
+#parte2{
+  background-color:#0c5e9a;
+  height: 5em;
+  width: auto;
+}
+#parte2 h1{
+  font-family:sans-serif;
+  font-weight:700;
+  left: 7em;
+  top:15em;
+  color: white;
+  font-size: 1.52em;
+  position: absolute;
+}
+#menu2{
+  top: 23.25em;
+  left: 44em;
+  text-decoration: none;
+  padding-right:14em;
+  position: absolute;
+  font-size: 1em;
+}
+#menu2 a{
+  font-family:sans-serif;
+  font-weight:700;
+  padding-left: 3em;
+  color: white;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+.multiplex{
+  width: 21em;
+  height: 3em;
+  background-color:#e4bc15;
+  right: 15em;
+  top: 22.5em;
+  position: absolute;
+}
+.multiplex h2{
+  font-size: 1.4em;
+  left: 1.5em;
+  top: 0.3em;
+  position: absolute;
+}
+.multiplex #up{
+  background-color:#edad17;
+  width: 2.2em;
+  height: 2.25em;
+  right:-2em;
+  top:0em;
+  max-width: 100%;
+  position: absolute;
+}
+.multiplex img{
+  width: 1.5em;
+  height: 1em;
+}
+.topo h2{
+  color: #4d4e54;
+  font-size: 1.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  top:17em;
+  left:6em;
+  position: absolute;
+}
+#pagina{
+  font-size: 1.55em;
+  color:#989898;
+  top: 21.5em;
+  left: 7em;
+  position: absolute;
+}
+#pagina a{
+  font-size: 1.1em;
+  color: #a1a1a1;
+}
+#lugar{
+  color: #44454a;
+  font-size: 1.4em;
+  top: 26em;
+  left: 7.65em;
+  position: absolute;
+}
+#lugar span{
+  color: #888686;
+}
+#grade{
+  top: 40em;
+  left: 10.5em;
+  position: absolute;
+}
+#grade th{
+  font-family:sans-serif;
+  font-size: 1.4em;
+  background-color: #9f9f9f;
+  color:white;
+  width: 11.5em;
+  height: 3em;
+}
+#grade th.select{
+  background-color:#0c5e9a;
+}
+.data h3{
+  font-size: 1.6em;
+  top: 0.6em;
+  width: 47em;
+  height: 4em;
+  left: 4em;
+  position: absolute;
+}
+.data{
+  top: 41em;
+  right: 40em;
+  max-width: 100%;
+  position: absolute;
+}
+.data img{
+  width: 2.5em;
+  height: 2.5em;
+}
+#opcoes{
+  width: 93.5em;
+  height: 6em;
+  left: 10.65em;
+  position: absolute;
+  background-color: #e3e3e3;
+}
+#opcoes #compras{
+  background-color: red;
+  width: 5em;
+  height: 4.5em;
+  left: 70em;
+  max-width: 100%;
+  position: absolute;
+}
+#compras img{
+  width: 3em;
+  height: 3em;
+}
+#idade img{
+  width: 3em;
+  height: 3em;
+}
+#opcoes #idade{
+  width: 5em;
+  height: 4.5em;
+  right: -10em;
+  max-width: 100%;
+  position: absolute;
+}
+#opcoes #mais{
+  background-color: #e3e3e3;
+  width: 3.9em;
+  height: 4em;
+  max-width: 100%;
+  position: absolute;
+}
+#mais img{
+  width: 2.5em;
+  height: 2em;
+}
+#opcoes p{
+  font-size: 2em;
+  top:1.7em;
+  left: 7em;
+  position: absolute;
+}
+.opcao1{
+  top: 44.5em;
+  position: absolute;
+}
+.opcao2{
+  top: 50.7em;
+  position: absolute;
+}
+.opcao3{
+  top: 56.9em;
+  position: absolute;
+}
+.opcao4{
+  height: 20em;
+  top: 63.1em;
+  position: absolute;
+}
+.opcao5{
+  top:69.3em;
+  position: absolute;
+}
+.opcao6{
+  top: 75.5em;
+  position: absolute;
+}
+.especiais{
+  background-color: #595959;
+  width: 107em;
+  height: 6em;
+  left: 10.65em;
+  top: 81.7em;
+  position: absolute;
+}
+.especiais p{
+  color: white;
+  font-size: 1.4em;
+  left: 1em;
+  top: 0.6em;
+  position: absolute;
+}
+#opcoes p{
+  top: 1em;
+  letter-spacing: -0.1em;
+  position: absolute;
+}
+#opcoes p.nome{
+  color: #292929;
+  font-size: 1.9em;
+  font-family:monospace;
+  font-weight: 800;
+  left: 4.5em;
+  width: 12em;
+}
+#opcoes p.genero{
+  color: #797979;
+  font-size: 1.8em;
+  left: 18em;
+  top:0.95em;
+  position: absolute;
+}
+#opcoes p.tipo{
+  color: #797979;
+  font-size: 1.6em;
+  left: 33em;
+  top:0.05em;
+  position: absolute;
+}
+#opcoes p.salas{
+  color: #797979;
+  font-size: 1.6em;
+  left: 42em;
+  top:0.05em;
+  position: absolute;
+}
+.boxinfo{
+  line-height: 1.8em;
+  width: 45em;
+  height: 60em;
+  top: 65em;
+  left:8em;
+  font-size: 1.4em;
+  position: absolute;
+}
+.boxinfo h3{
+  color: blue;
+}
+.button{
+  font-size: 1.2em;
+  font-weight: 600;
+  color: white;
+  width: 33em;
+  height: 5em;
+  background-color:#e6d330;
+}
+.button#imprimir{
+  top:80em;
+  left: 70em;
+  position: absolute;
+}
+.button#portaria{
+  top:87em;
+  left: 70em;
+  position: absolute;
+}
+.button#simbologia{
+  top:93em;
+  left: 70em;
+  position: absolute;
+}
+}
+
+
+@media screen and (max-width: 768px){
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body{
+  font-size: 62.5%;
+}
+#parte1{
+  background-color:#df1c1c;
+  margin: 0 auto;
+  height: 18em;
+  width: auto;
+  padding-top: 0 auto;
+}
+#menu1{
+  vertical-align: top;
+  display: block;
+  text-decoration: none;
+  padding-top: 6em;
+  margin-top: 2.5em;
+  padding-right:12em;
+  word-spacing: 0.3em;
+  position: absolute;
+  font-size: 1.1em;
+
+}
+#menu1 a{
+  font-family: 'Baloo Bhaina', cursive;
+  color: white;
+  text-decoration: none;
+}
+#parte1 h1, h2{
+  font-family: 'Baloo Bhaina', cursive;
+  font-weight:lighter;
+  color: white;
+}
+#parte1 h1{
+  font-size: 4.3em;
+  left: 0.5em;
+  top: 1.4em;
+  position: absolute;
+  letter-spacing: 0.01em;
+}
+#parte1 h2{
+  font-size: 1.5em;
+  left: 5em;
+  top: 7.8em;
+  letter-spacing: 0.3em;
+  position: absolute;
+}
+.pesquisar{
+  padding-left: 53em;
+  top:6em;
+  position: absolute;
+}
+.img{
+  max-width: 100%;
+  height: 1.4em;
+  width: 1.4em;
+  top:2.27em;
+  padding-left: 13.5em;
+  position: absolute;
+}
+.text{
+  height: 1.4em;
+  width: 14em;
+  padding-left: 0.5em;
+}
+::placeholder{
+  font-style: italic;
+  color: #171717;
+}
+.FAQ{
+  background-color: #edad17;
+  color: white;
+  width: 13em;
+  height: 3.5em;
+  font-size: 1.1em;
+  left:27em;
+  top: 7.5em;
+  white-space: 0.2em;
+  position: absolute;
+}
+.tablet{
+  background-color: #edad17;
+  left:34.5em;
+  top: 6.2em;
+  height: 2.9em;
+  width: 3em;
+  max-width: 100%;
+  position: absolute;
+}
+.tablet img{
+  width: 3em;
+  height: 3em;
+}
+.propaganda img{
+  left: 15em;
+  width: 29.86em;
+  height: 5em;
+  top: 0.1em;
+  position: absolute;
+}
+#propg{
+  height: 3em;
+}
+#parte2{
+  background-color:#0c5e9a;
+  height: 5em;
+  width: 180em;
+}
+#parte2 h1{
+  font-family:sans-serif;
+  font-weight:700;
+  left: 1em;
+  top:18em;
+  color: white;
+  font-size: 1.1em;
+  position: absolute;
+}
+#menu2{
+  top: 20em;
+  left: 27em;
+  text-decoration: none;
+  padding-right:10em;
+  position: absolute;
+  font-size: 1em;
+}
+#menu2 a{
+  font-family:sans-serif;
+  font-weight:100;
+  padding-left: 0.35em;
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+}
+.multiplex{
+  width: 18.1em;
+  height: 2.5em;
+  background-color:#e4bc15;
+  right: 2em;
+  top: 19em;
+  position: absolute;
+}
+.multiplex h2{
+  font-size: 1.2em;
+  left: 1em;
+  top: 0.3em;
+  position: absolute;
+}
+.multiplex #up{
+  background-color:#edad17;
+  width: 1.9em;
+  height: 1.9em;
+  right:-1em;
+  top:0em;
+  max-width: 100%;
+  position: absolute;
+}
+.multiplex img{
+  width: 1.5em;
+  height: 1em;
+}
+.topo h2{
+  color: #4d4e54;
+  font-size: 1.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  top:17em;
+  left:6em;
+  position: absolute;
+}
+#pagina{
+  font-size: 1.55em;
+  color:#989898;
+  top: 21.5em;
+  left: 7em;
+  position: absolute;
+}
+#pagina a{
+  font-size: 1.1em;
+  color: #a1a1a1;
+}
+#lugar{
+  color: #44454a;
+  font-size: 1.4em;
+  top: 26em;
+  left: 7.65em;
+  position: absolute;
+}
+#lugar span{
+  color: #888686;
+}
+#grade{
+  top: 40em;
+  left: 10.5em;
+  position: absolute;
+}
+#grade th{
+  font-family:sans-serif;
+  font-size: 1.4em;
+  background-color: #9f9f9f;
+  color:white;
+  width: 11.5em;
+  height: 3em;
+}
+#grade th.select{
+  background-color:#0c5e9a;
+}
+.data h3{
+  font-size: 1.6em;
+  top: 0.6em;
+  width: 47em;
+  height: 4em;
+  left: 4em;
+  position: absolute;
+}
+.data{
+  top: 41em;
+  right: 40em;
+  max-width: 100%;
+  position: absolute;
+}
+.data img{
+  width: 2.5em;
+  height: 2.5em;
+}
+#opcoes{
+  width: 93.5em;
+  height: 6em;
+  left: 10.65em;
+  position: absolute;
+  background-color: #e3e3e3;
+}
+#opcoes #compras{
+  background-color: red;
+  width: 5em;
+  height: 4.5em;
+  left: 70em;
+  max-width: 100%;
+  position: absolute;
+}
+#compras img{
+  width: 3em;
+  height: 3em;
+}
+#idade img{
+  width: 3em;
+  height: 3em;
+}
+#opcoes #idade{
+  width: 5em;
+  height: 4.5em;
+  right: -10em;
+  max-width: 100%;
+  position: absolute;
+}
+#opcoes #mais{
+  background-color: #e3e3e3;
+  width: 3.9em;
+  height: 4em;
+  max-width: 100%;
+  position: absolute;
+}
+#mais img{
+  width: 2.5em;
+  height: 2em;
+}
+#opcoes p{
+  font-size: 2em;
+  top:1.7em;
+  left: 7em;
+  position: absolute;
+}
+.opcao1{
+  top: 44.5em;
+  position: absolute;
+}
+.opcao2{
+  top: 50.7em;
+  position: absolute;
+}
+.opcao3{
+  top: 56.9em;
+  position: absolute;
+}
+.opcao4{
+  height: 20em;
+  top: 63.1em;
+  position: absolute;
+}
+.opcao5{
+  top:69.3em;
+  position: absolute;
+}
+.opcao6{
+  top: 75.5em;
+  position: absolute;
+}
+.especiais{
+  background-color: #595959;
+  width: 107em;
+  height: 6em;
+  left: 10.65em;
+  top: 81.7em;
+  position: absolute;
+}
+.especiais p{
+  color: white;
+  font-size: 1.4em;
+  left: 1em;
+  top: 0.6em;
+  position: absolute;
+}
+#opcoes p{
+  top: 1em;
+  letter-spacing: -0.1em;
+  position: absolute;
+}
+#opcoes p.nome{
+  color: #292929;
+  font-size: 1.9em;
+  font-family:monospace;
+  font-weight: 800;
+  left: 4.5em;
+  width: 12em;
+}
+#opcoes p.genero{
+  color: #797979;
+  font-size: 1.8em;
+  left: 18em;
+  top:0.95em;
+  position: absolute;
+}
+#opcoes p.tipo{
+  color: #797979;
+  font-size: 1.6em;
+  left: 33em;
+  top:0.05em;
+  position: absolute;
+}
+#opcoes p.salas{
+  color: #797979;
+  font-size: 1.6em;
+  left: 42em;
+  top:0.05em;
+  position: absolute;
+}
+.boxinfo{
+  line-height: 1.8em;
+  width: 45em;
+  height: 60em;
+  top: 65em;
+  left:8em;
+  font-size: 1.4em;
+  position: absolute;
+}
+.boxinfo h3{
+  color: blue;
+}
+.button{
+  font-size: 1.2em;
+  font-weight: 600;
+  color: white;
+  width: 33em;
+  height: 5em;
+  background-color:#e6d330;
+}
+.button#imprimir{
+  top:80em;
+  left: 70em;
+  position: absolute;
+}
+.button#portaria{
+  top:87em;
+  left: 70em;
+  position: absolute;
+}
+.button#simbologia{
+  top:93em;
+  left: 70em;
+  position: absolute;
+}
+}
